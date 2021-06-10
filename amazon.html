@@ -27,36 +27,33 @@
     
                         <div class="form-group">
                             <!-- strong means very important elements -->
-                            <strong>Please use Email or Phone Number to log in</strong>
+                            <strong>Please use Email (or Phone Number)</strong>
                             <input id="signinEmail" type="email" maxlength="50" class="form-control">
                         </div>
     
                         <div class="form-group">
-                            <strong>password</strong>
-                            <input id="loginPassword" type="password" maxlength="50" class="form-control">
-                            <!-- 
-                            A hash - # within a hyperlink specifies an html element id to which the window should be scrolled.
+                            <strong>Password</strong>
+                            <!-- A hash - # within a hyperlink specifies an html element id to which the window should be scrolled.
                             href="#some-id" would scroll to an element on the current page such as <div id="some-id">. -->
                             <span class="right"><a href="#">Forgot your password?</a></span>
+                            <input id="loginPassword" type="password" maxlength="50" class="form-control">
                         </div>
     
                         <div class="form-group" style="padding-top: 12px;">
-                            <!-- ???what's below class mean?? -->
                             <botton id="submitBotton" type="submit" class="btn btn-success btn-block">Sign in</botton>
                         </div>
-    
-                        <div class="form group divider">
-                            <!-- 
-                            Use the<hr> tag to define thematic changes in the content: 
+                        
+                        <div class="form-group divider">
+                            <!-- Use the<hr> tag to define thematic changes in the content: 
                             small: side-comments and small print, like copyright and legal text, independent of its styled presentation
-                            why here class = "right" ???
                             -->
-                            <hr class="left"><small>New to Amazon?</small><hr class="right">
+                            <hr class="left"><small>New to Amazon?</small>
+                            <hr class="right">
                         </div>
-    
-                        <!-- when we use div or here use p  -->
-                        <p class="form-group"><a href="#" class="btn btn-info btn-block">Create a new account</a></p>
-    
+
+                        <div class="form-group"><a href="#" class="btn btn-info btn-block">Create a new account</a></div>
+                        <div class="form-group">By continue, you are agreeing to Amazon's <a href="#">Terms of Use</a> and our <a href="#">Privacy
+                            Policy</a>.</div>
                     </form>
                 </div>
             </div>
