@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="amazon.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- A panel in bootstrap is a bordered box with some padding around its content -->
+            <div class="" panel panel-primary>
+                <div class="panel-body">
+                    <form method="POST" action="#" role="form">
+                        <div class="form-group">
+                            <h2>Sign in</h2>
+                        </div>
+    
+                        <div class="form-group">
+                            <!-- strong means very important elements -->
+                            <strong>Please use Email or Phone Number to log in</strong>
+                            <input id="signinEmail" type="email" maxlength="50" class="form-control">
+                        </div>
+    
+                        <div class="form-group">
+                            <strong>password</strong>
+                            <input id="loginPassword" type="password" maxlength="50" class="form-control">
+                            <!-- 
+                            A hash - # within a hyperlink specifies an html element id to which the window should be scrolled.
+                            href="#some-id" would scroll to an element on the current page such as <div id="some-id">. -->
+                            <span class="right"><a href="#">Forgot your password?</a></span>
+                        </div>
+    
+                        <div class="form-group" style="padding-top: 12px;">
+                            <!-- ???what's below class mean?? -->
+                            <botton id="submitBotton" type="submit" class="btn btn-success btn-block">Sign in</botton>
+                        </div>
+    
+                        <div class="form group divider">
+                            <!-- 
+                            Use the<hr> tag to define thematic changes in the content: 
+                            small: side-comments and small print, like copyright and legal text, independent of its styled presentation
+                            why here class = "right" ???
+                            -->
+                            <hr class="left"><small>New to Amazon?</small><hr class="right">
+                        </div>
+    
+                        <!-- when we use div or here use p  -->
+                        <p class="form-group"><a href="#" class="btn btn-info btn-block">Create a new account</a></p>
+    
+                    </form>
+                </div>
+            </div>
+    
+        </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
